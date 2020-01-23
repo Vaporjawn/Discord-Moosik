@@ -1,7 +1,9 @@
+//hopefully no errors
 "use strict";
 
 const WebSocket = require('ws');
 
+//another class
 class APISocket extends WebSocket {
 
     constructor(url) {
@@ -41,4 +43,5 @@ class APISocket extends WebSocket {
 
 }
 
+//bye bye
 module.exports = APISocket;

@@ -1,3 +1,4 @@
+
 "use strict";
 
 const urlutils = require('url');
@@ -7,6 +8,7 @@ const APISocket = require('./APISocket.js');
 const Constants = require('../Constants.js');
 const Utils = require('../Utils.js');
 
+//module mode module mode
 class DiscordSocket extends APISocket {
     constructor(url, discord, compress) {
         super(url);
@@ -104,6 +106,8 @@ class DiscordSocket extends APISocket {
     }
 
 }
+
+//these were difficult...
 
 DiscordSocket.retrieveGatewayURL = function() {
     return new Promise(function(resolve, reject) {
