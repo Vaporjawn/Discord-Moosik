@@ -1,8 +1,7 @@
 "use strict";
 
 const EventEmitter = require('events').EventEmitter;
-const stream = require('stream');
-
+const Stream = require('stream');
 const Playable = require('./interfaces/Playable.js');
 const Constants = require('./Constants.js');
 const VoiceUDPSocket = require('./ws/VoiceUDPSocket.js');
