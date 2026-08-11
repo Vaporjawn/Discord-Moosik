@@ -10,7 +10,7 @@
     "opusscript": "0.0.2",
     "pako": "1.0.3",
     "tweetnacl": "0.14.3",
-    "ws": "1.1.1",
+    "ws": "5.2.5",
     "ytdl-core": "^0.7.24"
   },
   "repository": {
